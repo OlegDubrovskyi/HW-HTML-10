@@ -1,0 +1,139 @@
+
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.wrapper::after {
+     display: block;
+     content: "";
+     clear: both;
+}
+
+.textCenter{
+    text-align: center;
+}
+
+.button{
+    margin: 0 auto;
+    width: 185px;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.decorationNone{
+     text-decoration: none;
+}
+
+.floatLeft{
+    float: left;
+}
+
+.floatRight{
+    float: right;
+}
+
+
+/*1. fullScreenSlider --------------------------------------*/
+
+.fullScreenSlider{
+    padding-top: 500px;
+    padding-bottom: 60px;
+    background-image: url(../img/sliderImage.png);
+    background-position: center center;
+}
+
+.sliderText{
+  font-size: 60px;
+  font-family: "Roboto";
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 0.4;
+  margin-top: 32px;
+  margin-bottom: 32px; 
+}
+
+.line{
+    box-sizing: content-box;
+    width: 750px;
+    height: 2px;
+    background: #ffffff;
+    margin: 0 auto;
+}
+
+.sliderButton>a {
+  font-size: 18px;
+  font-family: "Roboto";
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.333;
+}
+
+.fullScreenSlider>.wrapper>.marBot{
+    margin-bottom: 50px; 
+}
+
+.sliderPagination{
+    margin-top: 193px;
+}
+
+/*2. menu --------------------------------------*/
+
+.menu{
+    padding-top: 5px;
+    padding-bottom: 15px;
+    background-color: #252e30;
+}
+
+.logo{
+    margin-top: 10px;
+}
+
+.menuButtons>ul li{
+    list-style-type: none;
+    margin-left: 44px;
+}
+
+.menuButtons>ul li a{
+    font-size: 16px;
+    font-family: 'Roboto';
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 1.875;
+}
+
+/*3. hobbies --------------------------------------*/
+
+.hobbies{
+    background-color: #ffffff;
+    padding-top: 68px;
+    padding-bottom: 100px;
+}
+
+.hobbiesBlock{
+    width: 33%;
+}
+
+.hobbiesTitle{
+    font-size: 30px;
+    font-family: "Roboto";
+    color: #6d787a;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.8;
+    text-align: left;
+    margin-bottom: 41px;
+}
+
+.hobbiesDescription{
+  font-size: 18px;
+  font-family: "Roboto";
+  color: #cccccc;
+  line-height: 1.667;
+}
